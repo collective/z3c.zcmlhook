@@ -48,8 +48,3 @@ class TestZCMLDeclarations(TestCase):
         zcml = xmlconfig.XMLConfig('test4.zcml', z3c.zcmlhook.tests)
         zcml()
         self.assertEqual(['test_fn1', 'test_fn1'], testState.executions)
-
-
-def test_suite():
-    import unittest
-    return unittest.defaultTestLoader.loadTestsFromName(__name__)
