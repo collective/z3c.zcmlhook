@@ -1,0 +1,4 @@
+recursiv-exclude *.pyc
+include *.txt *.rst
+include buildout.cfg
+graft src
