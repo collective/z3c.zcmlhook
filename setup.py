@@ -11,8 +11,8 @@ setup(
     name='z3c.zcmlhook',
     version=version,
     description='Easily hook into the ZCML processing machinery',
-    long_description=open('README.txt').read() + '\n' +
-    open(os.path.join('docs', 'HISTORY.txt')).read(),
+    long_description=open('README.rst').read() + '\n' +
+    open('CHANGES.rst').read(),
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
